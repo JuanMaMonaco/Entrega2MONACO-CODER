@@ -31,6 +31,7 @@
         ". cliente ."
         ". subtitulo ."
         ". slogan .";
+    
 }
 
 .cliente {
@@ -38,7 +39,7 @@
     text-align: center;
     justify-content: center;
     background-color: #c6ad71;
-
+    letter-spacing: 2px;
 }
 
 .subtitulo {
@@ -46,6 +47,7 @@
     text-align: center;
     justify-content: center;
     background-color: #c6ad71;
+    letter-spacing: 2px;
 }
 
 .slogan {
@@ -53,6 +55,7 @@
     text-align: center;
     justify-content: center;
     background-color: aliceblue;
+    letter-spacing: 2px;
 }
 
 /* cambios en la barra de navegacion de BOOTSTRAP */
@@ -423,10 +426,11 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 30px;
+    margin: 50px;
     background-color: #acba9d;
     border: 5px double #142f30;
     flex: 1 0 300px;
+    max-width: 562px;
 }
 
 .contacto {
@@ -476,6 +480,7 @@
         grid-column: 1/4;
         margin-left: 10vw;
         margin-right: 10vw;
+        max-width: 562px;
     }
 
 .formulario {
@@ -493,5 +498,6 @@
         grid-column: 1/5;
         margin-left: 20vw;
         margin-right: 20vw;
+        max-width: 562px;
 }
  }
