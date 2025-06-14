@@ -429,8 +429,7 @@
     margin: 50px;
     background-color: #acba9d;
     border: 5px double #142f30;
-    flex: 1 0 300px;
-    max-width: 562px;
+    max-width: 562;
 }
 
 .contacto {
@@ -444,9 +443,7 @@
 }
 
 .formulario {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    
     justify-content: center;
     align-content: center;
     margin: 20px;
@@ -480,13 +477,13 @@
         grid-column: 1/4;
         margin-left: 10vw;
         margin-right: 10vw;
-        max-width: 562px;
+        
     }
 
 .formulario {
     padding: 10px;
     border: 10px solid #c6ad71;
-    flex: 1 1 400px;
+    
 
 }
 
@@ -498,6 +495,6 @@
         grid-column: 1/5;
         margin-left: 20vw;
         margin-right: 20vw;
-        max-width: 562px;
+        
 }
  }
