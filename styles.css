@@ -483,7 +483,7 @@
 .formulario {
     padding: 10px;
     border: 10px solid #c6ad71;
-    
+    flex: 1 1 300px;
 
 }
 
